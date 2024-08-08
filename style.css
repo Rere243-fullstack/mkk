@@ -1,0 +1,150 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "poppins",sans-serif;
+}
+.header{
+   width: 100%;
+   padding-left: 64px;
+   padding-right: 64px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+}
+.h1{
+    font-size: 18px;
+    font-weight: 600px;
+    color: #3d3d3d;
+    align-items: center;
+}
+.link{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 18px;
+    list-style: none;
+    text-decoration: none;
+
+}
+.list{
+    display: flex; flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+}
+.main{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 8rem 18rem;
+}
+.main .image{
+    display: flex;
+}
+.image img{
+    width: 300px;
+    height: 300px;
+    border-radius:50%
+}
+.main .text{
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+}
+.text #titre h2{
+    font-size: 35px;
+    align-items: center;
+}
+text h3{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px;
+    color: #3d3d3d;
+}
+.text p{
+    font-size: 15px;
+    font-weight: 300;
+    margin: 10px;
+    color: #3d3d3d;
+}
+text .cercle{
+    display: flex;
+    padding: 1.5rem 0;
+}
+.cercle{
+    display: flex; flex-direction: row;
+}
+.cercle li{
+    display: flex; flex-direction: row;
+    align-items: center;
+    background: #ff9800;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+}
+.cercle li{
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid  #3d3d3d;
+    margin-right: 35px;
+}
+.cercle li:nth-child(2){
+    background: #bd081c;
+}
+.cercle li:nth-child(3){
+    background: #00aff0;
+}
+.cercle li a{
+    text-decoration: none;
+    color: #3d3d3d;
+    font-size: 13px;
+    font-weight: 600;
+}
+footer{
+    justify-content: space-between;
+    display: flex;
+    width: 300px;
+    padding: 3rem;
+}
+.barre{
+    border: 1px solid rgb(20, 15, 15);
+    height: 2px;
+    width: space-between;
+    
+}
+.nav{
+    display: flex;flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.footer .all{
+    display:block;
+}
+.all p{
+    margin: 10px;
+}
+.all a{
+    margin: 10px;
+    text-decoration: none;
+    color: #3d3d3d;
+}
+.RS{
+    display: block;
+    gap: 20px;
+}
+.reseaux{
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+.reseaux a{
+    color: #3d3d3d;
+    margin-right: 10px;
+}
+
